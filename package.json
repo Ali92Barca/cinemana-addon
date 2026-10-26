@@ -1,0 +1,16 @@
+{
+  "name": "cinemana-tmdb-nuvio-addon",
+  "version": "0.5.2",
+  "private": true,
+  "description": "Cinemana addon for Nuvio with configurable TMDB metadata and subtitle tracks",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
